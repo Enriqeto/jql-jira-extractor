@@ -1,0 +1,19 @@
+connection:
+
+    email: matheus.neto@sascar.com.br
+    token: dNIuwxVW9oJpsDiSMqpV7A1D
+
+extractions:
+  # Use "< config >" to get a special name
+  extract_name:
+    filter: filtername
+    format:
+      csv: output
+      workbook
+
+    fields:
+      - issuetype
+      - key
+      - summary
+      - created_date
+      - end_date
